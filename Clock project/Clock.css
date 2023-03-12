@@ -1,0 +1,32 @@
+html,
+body {
+  background: url(BG.TOD);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  margin: 1rem;
+}
+
+div#greeting {
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: azure;
+  letter-spacing: 5px;
+}
+
+div#txt {
+  font-size: 4rem;
+  text-decoration: underline;
+  color: azure;
+  letter-spacing: 5px;
+}
